@@ -9,8 +9,8 @@ $(document).ready(function () {
   function showSecond() {
     $(".second-view").fadeIn();
   }
-  setTimeout(hideSplash, 1000, 0.1);
-  setTimeout(showSecond, 1200);
+  setTimeout(hideSplash, 2500, 0.1);
+  setTimeout(showSecond, 2700);
 })
 
 var $restaurants = $('#box-rest');
